@@ -20,3 +20,4 @@ When a player's ship is sunk, they have to announce what type of ship it is, and
 ---
 WARNING: Be careful when typing in the data, as there is no undo option. Also, there is no overflow protection when typing in coordinates of sunken enemy ships, and you must use the ':' character for 10.
 If you enter wrong data at one point, do not worry though: the AI is 100% deterministic, so you can set up an older grid just by restarting the AI and typing in all results up to that point.
+Also, there are probably lots of horrendous bugs in my code, as in my tests on this version I got an average of 58 moves/game (with some games lasting more than 90 moves!) in a 103 game test, but in most single game tests the move count doesn't exceed 50. Also, in an earlier version, I got an average of 24 moves, which seems too good to be true, and it probably is.
